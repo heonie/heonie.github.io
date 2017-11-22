@@ -53,7 +53,8 @@ html, body{
 }
 .star{
   text-align:center;
-  margin: 30px;
+  margin-top: 150px;
+  margin-bottom: 30px;
   font-size:40px;
   font-family:'Arial';
   color: #fff;
