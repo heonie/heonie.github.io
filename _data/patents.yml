@@ -1,0 +1,20 @@
+- layout: top-middle
+  name: Display apparatus and method of highlighting object on image displayed by a display apparatus
+  link: https://patents.google.com/patent/US10678408B2
+  description: | # this will include new lines to allow paragraphs
+    * 4방향 및 선택 버튼의 제한된 입력 장치를 이용하여 화면상의 아이템의 하이라이트 이동을 결정하는 방법에 대한 알고리즘 특허
+    * US10678408B2, KR101617216B1
+
+- layout: top-middle
+  name: Display apparatus, method of controlling the same, and display system
+  link: https://patents.google.com/patent/US11615768B2
+  description: | # this will include new lines to allow paragraphs
+    * 정사각형 모듈형 디스플레이들을 다양한 방법으로 임의 체결시 전체 해상도와 각 모듈의 표시 부분을 결정하는 알고리즘에 대한 특허
+    * US11615768B2, EP3851951B1, KR102662666B1, WO2020096270A1
+
+- layout: top-middle
+  name: An electronic apparatus and a method thereof
+  link: https://patents.google.com/patent/US20230395297A1
+  description: | # this will include new lines to allow paragraphs
+    * 자석을 이용한 벽걸이 디스플레이 체결 인식 및 회전 인식에 대한 특허
+    * KR20220117056A, US20230395297A1, WO2022177207A2
