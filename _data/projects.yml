@@ -10,6 +10,7 @@
       * 효율적 전송/캐싱을 위한 바이너리 분리 저장 및 증분 동기화
       * 데이터 포맷 업그레이드에 따른 버전별 마이그레이션 시스템의 SW 설계와 무결성 체크 구현
       * 3D 씬 단위 Lazy Loading 구현
+    * WebSocket기반 실시간 저장/협업 시스템 구현
     * AWS 멀티리전 환경에서의 글로벌 라우팅 및 리전간 DB 데이터 동기화 딜레이 이슈 해결
     * 배경 생성 AI 기능의 Backend API, Inference Pipeline Serving 시스템 설계
     * 서버사이드 CAD포맷 변환을 위한 Backend API, 시스템 설계
