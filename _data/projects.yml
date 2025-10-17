@@ -2,7 +2,7 @@
   name: Surfee
   link: https://surfee.io
   dates: 2022.04 ~ 현재
-  quote: 실시간 동기화/협업 지원 3D 에디터
+  quote: 실시간 동기화/협업을 지원하는 3D 에디터
   description: | # this will include new lines to allow paragraphs
     * Core Lib. 구현
       * 대용량 3D 데이터의 상태관리, 저장/로드, 캐싱, 커맨드, 언두/리두, 무결성 보장 등
@@ -12,27 +12,27 @@
       * 3D 씬 단위 Lazy Loading 구현
     * WebSocket기반 실시간 저장/협업 시스템 구현
     * AWS 멀티리전 환경에서의 글로벌 라우팅 및 리전간 DB 데이터 동기화 딜레이 이슈 해결
-    * 배경 생성 AI 기능의 Backend API, Inference Pipeline Serving 시스템 설계
-    * 서버사이드 CAD포맷 변환을 위한 Backend API, 시스템 설계
+    * 배경 생성 AI 기능의 Backend API와 Scale-out 가능하면서 리드타임을 최소화하는 Inference pipeline serving 시스템의 설계
+    * 서버사이드 CAD포맷 변환을 위한 Backend API, 서버리스 시스템 설계
     * AWS 클라우드 월별 자동화 리포트 생성 시스템 개발
-    * FE/BE/CoreLib./Grahpics/QA 엔지니어 10명 Surfee 개발팀 리딩
+    * FE, BE, Platform, Graphics, QA 엔지니어 10명의 Surfee 개발팀 리딩
 
-- layout: top-middle
+- layout: left
   name: NdotCAD for Web
   link: https://app.ndotcad.com
   quote: 웹 기반 CAD 에디터
   dates: 2022 ~ 2023
   description: | # this will include new lines to allow paragraphs
     * 기존 Windows용 NdotCAD for Desktop의 클라우드 서비스화
-      * C++, QT, 설치형, 파일 저장 기반에서, Web app, WASM, REST API 및 AWS 클라우드 기반으로 전환
-    * 백엔드 개발: Nest.js기반 REST API 설계 및 구현 (파일셋 버저닝, 워크스페이스, 권한 관리 등)
+      * C++, QT, 설치형, 파일 저장 기반에서 → Web app, WASM, REST API 및 AWS 클라우드 기반으로 전환
+    * 백엔드 개발: Nest.js, MySQL 기반 REST API 설계 및 구현 (CQRS, 파일셋 버저닝, 워크스페이스/프로젝트, 권한 관리 등)
     * 인프라 구축: AWS 리소스 설계/구축, Github Actions + AWS CodeDeploy 배포 파이프라인 구축
-    * 프론트엔드 개발: React(Next.js), Chakra UI, Zustand 앱 개발. WASM Wrapper Library 설계/구현
-    * FE/BE 서비스 개발 엔지니어 4명 Web Service 팀 리딩
+    * 프론트엔드 개발: React(Next.js), Chakra UI, Zustand 기반 앱 개발. WASM Wrapper NPM Library 설계/구현
+    * FE/BE 서비스 개발 엔지니어 5명 Web Service 팀 리딩
 
-- layout: top-middle
+- layout: left
   name: NdotLight Account
-  quote: OAuth2.0 기반의 자사 SSO 서비스
+  quote: 자사/3rd party 서비스간의 인증/인가를 위한 자체 SSO 서비스
   dates: 2022 ~ 2023
   description: | # this will include new lines to allow paragraphs
     * 자체 OAuth 2 Provider 구축을 통한 내부 시스템 인증/인가 체계 구축
@@ -43,29 +43,29 @@
     * OAuth client별 약관 버전 및 사용자별 동의 여부 관리
     * 1명의 팀원과 from scratch로 설계/개발
 
-- layout: top-middle
+- layout: left
   name: Gaming Hub
   link: https://www.samsung.com/sec/tvs/gaming-tv/gaming-hub/
-  quote: TV 클라우드 게임 서비스
+  quote: 글로벌 사용자를 가진 TV 클라우드 게임 서비스
   dates: 2022 ~ 2023
   description: | # this will include new lines to allow paragraphs
     * Tizen .NET/Native 기반 Client 개발, 본사 및 해외 R&D센터 과제 진행
-    * Spotify와 API 협의 및 TV 소프트웨어 설계 - 게임 중 음악 재생 기능 실현
+    * Spotify와 API 협의 및 TV 소프트웨어 설계/개발 - 게임 중 음악 재생 기능 실현
     * XBOX, Amazon Luna 등 3rd-party 클라우드 게임 앱 Deep-link 연동 API 개발, 가이드, 기술 지원
     * 2022년 ~ 현재 삼성 TV에서 서비스 중
     * [소개 영상](https://www.youtube.com/watch?v=cGuOh62Z4qI)
 
-- layout: top-middle
-  name: 선행 디스플레이 컨셉 프로토타입 개발
+- layout: left
+  name: 선행 디스플레이 컨셉의 프로토타입 개발 리드
   dates: 2017 ~ 2019
   description: | # this will include new lines to allow paragraphs
     * Micro LED Modular Concept (2018~2020) - 프로토타입 개발
-      * 모듈러 디스플레이 체결 Ideation, 최초 프로토타입용 128×128 RGB 매트릭스 회로, 컨트롤러 FW/미들웨어, 웹 UI 개발
-      * Three.js 활용 시각효과, 모듈 결합 해상도/크롭 산정 알고리즘 고안 (특허 출원)
+      * 모듈러 디스플레이 체결 Ideation, 최초 프로토타입용 128×128 RGB 매트릭스 회로, 컨트롤러 Firmware/Middleware, 웹 UI 개발
+      * Three.js 활용 시각효과, 디스플레이 모듈의 결합시 해상도/크롭 산정 알고리즘 고안 (특허 출원)
       * [CES 컨셉 전시 영상](https://www.youtube.com/watch?v=hPXsyZAtg88)
-    * 비주얼 오디오 컨셉 - UX 프로토타입 개발 (2017)
-      * 모터 구동 회로 설계, 펌웨어 개발, 화면 회전 UX 프로토타입 개발
-      * 양산 조직으로 과제 이관, "SERO TV" 브랜드로 2019 출시, CES 2020 Innovation Award Honoree
+    * 비주얼 오디오 컨셉 - 프로토타입 개발 (2017)
+      * 프토토타입의 모터 구동 회로 설계, 펌웨어 개발, 화면 회전/ UX 개발
+      * 양산 조직으로 이관, "SERO TV" 브랜드로 2019 출시, CES 2020 Innovation Award Honoree
       * [SERO 제품 소개](https://www.youtube.com/watch?v=ruBh85qSzbQ)
     * Universal 리모컨 컨셉 - PM 및 프로토타입 개발 (2017)
       * 음성인식 + IoT 컨트롤러 결합 통합 리모컨 컨셉 Ideation
@@ -73,7 +73,7 @@
       * Atmega328 회로 설계 및 펌웨어(Bluetooth), Node.js M/W, Google Cloud API / wit.ai 기반 음성인식과 자연어 명령 처리 적용한 프로토타입 개발
       * 본 과제의 HW 형상, 기본 조작 UX 차용하여 Samsung Ark 모니터 번들 리모컨 연계
 
-- layout: top-middle
+- layout: left
   name: TOAST Library
   quote: 크로스플랫폼 스마트TV 앱 개발 라이브러리
   dates: 2014 ~ 2015
@@ -85,32 +85,32 @@
     * Jasmine기반 TestSuite 구축, 브라우저 및 타겟 디바이스에서 자동화된 테스트 환경 구축
     * [Github 링크](https://github.com/Samsung/cordova-plugin-toast)
 
-- layout: top-middle
+- layout: left
   name: Smart TV Apps Framework
-  quote: 삼성 TV 웹 앱 개발을 위한 JavaScript 프레임워크
+  quote: 1000개 이상의 앱이 사용하는 삼성 TV 웹 앱 개발을 위한 JavaScript 프레임워크
   dates: 2010 ~ 2013
   description: | # this will include new lines to allow paragraphs
-    * 스마트 TV 웹 앱 프레임워크 설계/구현
+    * 스마트 TV 웹 앱 프레임워크의 설계/구현
     * CSS UI 컴포넌트, 동영상/오디오 JS API, On-device PIN OAuth 지원 등 웹 유틸리티
-    * 2010~2013 스마트 TV SDK 포함, 1000+ TV 앱에서 활용
+    * 2010~2013 삼성 스마트 TV SDK에 포함, 1000+ TV 앱에서 활용
     * [Legacy 문서 링크](https://developer.samsung.com/smarttv/develop/legacy-platform-library/art00016/index.html)
 
-- layout: top-middle
+- layout: left
   name: Smart TV 어플리케이션 개발
   dates: 2009 ~ 2014
   description: | # this will include new lines to allow paragraphs
-    * Google Maps (2009년), Blockbuster, MLB.TV (이상 2012년), Facebook(2014년) 등 VOD/Social Network 삼성스마트TV 앱 개발
+    * Google Maps (2009년), Blockbuster, MLB.TV (이상 2012년), Facebook(2014년) 등 VOD/Social Network 삼성 스마트TV 앱 개발
     * 컨텐츠 정보 브라우징 및 VOD 앱 연결 자체 서비스인 Your Video 북미향 앱 개발 (2012년)
     * 2010~2014년 삼성 스마트TV 선 탑재 또는 Apps 메뉴에서 서비스
 
-- layout: top-middle
+- layout: left
   name: uTaxi & uDriver
   dates: 2005 ~ 2006
   description: | # this will include new lines to allow paragraphs
     * Visual C++기반 콜센터 클라이언트 개발
     * Qualcomm Brew 기반 피쳐폰용 대리기사 클라이언트 앱 개발
 
-- layout: top-middle
+- layout: left
   name: GIS Application Library / 시스템 개발
   dates: 2004 ~ 2005
   description: | # this will include new lines to allow paragraphs
