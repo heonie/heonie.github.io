@@ -1,21 +1,24 @@
 - layout: left
   company: 엔닷라이트
   link: https://www.ndotlight.com/
-  job_title: 이사 / 웹 서비스 개발 팀장
+  job_title: 이사 / Head of web services
   dates: 2022.04 ~ 현재
   description: | # this will include new lines to allow paragraphs
-    * 실시간 웹 3D 편집/협업 서비스 전반의 시스템 디자인, 웹 서비스 총괄 및 개발 리드
-    * 회사 초기 멤버로서 데스크탑 설치형 제품의 클라우드 SaaS화, 웹 기반의 회사 기술 기반 전환 주도
+    * 실시간 웹 3D 편집/협업 서비스 전반의 시스템 디자인과 웹 서비스 개발 리드
+    * 회사 초기 멤버로서 데스크탑 설치형 제품의 클라우드 SaaS화, 회사 기술 기반을 웹 기반으로 0→1 전환 리드
     * 100억원+ 시리즈A 및 브릿지 투자 유치 기여
 
 - layout: left
   company: 삼성전자
   link: https://www.samsung.com/sec/
-  job_title: 수석연구원 / Principal Software Engineer
+  job_title: 수석연구원 / Principal software engineer
   dates: 2009.02 ~ 2022.03
   description: | # this will include new lines to allow paragraphs
-    * TV 웹앱 플랫폼/서비스 앱/선행 프로토타입 및 상용 제품 SW개발 기술 리드 엔지니어
-    * 외부 파트너(Spotify, MLB.TV, XBOX 등)와의 API 협의/설계 주도 및 글로벌 연구소 협업 진행
+    * 1000+ 앱이 사용하는 TV 웹 앱 프레임워크 설계 및 개발을 통해 Apps Ecosystem의 구축
+    * 글로벌 사용자를 가진 클라우드 게이밍 TV 서비스 개발
+    * 제품 선행 컨셉의 프로토타입의 개발 리드/PM
+      - 1개월 사이클로 Ideation, 프로토타입 개발, 시연, 회고를 반복하고 제품화까지 이끌어낸 경험
+    * 외부 파트너(Spotify, MLB.TV, XBOX 등)와의 연동 API 협의/공동 설계 주도 및 글로벌 연구소 협업 진행
     * Samsung S/W Certification - Expert (알고리즘 문제 해결 최고레벨, 2013, VD사업부 최초)
     * 경력사원채용 코딩 인터뷰어(2017) 및 사내강사(2016, 2021), 3년 조기 진급
 
@@ -30,7 +33,7 @@
 
 - layout: left
   company: GIS Soft, 시너텍
-  job_title: 사원 / SW엔지니어 (산업기능요원)
+  job_title: 사원 / Software engineer (산업기능요원)
   dates: 2004 ~ 2006
   description: | # this will include new lines to allow paragraphs
     * 위치기반 택시/대리운전 서비스 PC/피쳐폰 Client 개발
