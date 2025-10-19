@@ -23,25 +23,28 @@
   quote: 웹 기반 CAD 에디터
   dates: 2022 ~ 2023
   description: | # this will include new lines to allow paragraphs
-    * 기존 Windows용 NdotCAD for Desktop의 클라우드 서비스화
-      * C++, QT, 설치형, 파일 저장 기반에서 → Web app, WASM, REST API 및 AWS 클라우드 기반으로 전환
-    * 백엔드 개발: Nest.js, MySQL 기반 REST API 설계 및 구현 (CQRS, 파일셋 버저닝, 워크스페이스/프로젝트, 권한 관리 등)
-    * 인프라 구축: AWS 리소스 설계/구축, Github Actions + AWS CodeDeploy 배포 파이프라인 구축
-    * 프론트엔드 개발: React(Next.js), Chakra UI, Zustand 기반 앱 개발. WASM Wrapper NPM Library 설계/구현
-    * FE/BE 서비스 개발 엔지니어 5명 Web Service 팀 리딩
+    * 기존 Windows용 NdotCAD for Desktop의 클라우드 웹 서비스화 주도
+      * 기존 데스크탑 App의 CAD엔진의 WASM버전 이용, --AWS 클라우드 기반 Web app으로의 전환--을 주도
+    * 서비스 전체의 기술 및 팀 리딩 (CAD WASM 개발 제외)
+      * 백엔드 개발: Nest.js, MySQL 기반 REST API 설계 및 구현 (CQRS, 파일셋 버저닝, 워크스페이스/프로젝트, 권한 관리 등)
+      * 인프라 구축: AWS 리소스 설계/구축, Github Actions + AWS CodeDeploy 배포 파이프라인 구축
+      * 프론트엔드 개발: React(Next.js), Chakra UI, Zustand 기반 앱 개발. WASM Wrapper NPM Library 설계/구현
+    * FE/BE 서비스 개발 엔지니어 6명 Web Service 팀 리딩
+    * [CES 2023 Innovation Award Honoree](https://www.ces.tech/ces-innovation-awards/2023/ndotcad/)
+
 
 - layout: left
   name: NdotLight Account
   quote: 자사/3rd party 서비스간의 인증/인가를 위한 자체 SSO 서비스
   dates: 2022 ~ 2023
   description: | # this will include new lines to allow paragraphs
-    * 자체 OAuth 2 Provider 구축을 통한 내부 시스템 인증/인가 체계 구축
+    * 자체 <mark>OAuth 2 Provider</mark> 구축을 통한 내부 시스템 인증/인가 체계 구축
     * Email/PW 및 SNS(카카오, 네이버, 구글) 인증 구현
     * OAuth 2 기반으로 자사/타사 시스템간 리소스 접근 사용자 인가 및 JWT 발급
       * 자사 연동 서비스: NdotCAD for Desktop, NdotCAD for Web, Surfee(구, Revolve)
       * 타사 연동 서비스: KT Genieverse
     * OAuth client별 약관 버전 및 사용자별 동의 여부 관리
-    * 1명의 팀원과 from scratch로 설계/개발
+    * 1명의 FE팀원과 from scratch로 설계/개발
 
 - layout: left
   name: Gaming Hub
